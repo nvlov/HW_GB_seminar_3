@@ -10,7 +10,8 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("введите поочередно координаты (x, y, z) точки A: ");
+        Console.Clear();
+		Console.WriteLine("введите поочередно координаты (x, y, z) точки A: ");
         double ax = double.Parse(Console.ReadLine());
         double ay = double.Parse(Console.ReadLine());
         double az = double.Parse(Console.ReadLine());
@@ -25,3 +26,4 @@ class Program
         Console.WriteLine("расстояние между точками А и В: {0:F2}", distance);
     }
 }
+

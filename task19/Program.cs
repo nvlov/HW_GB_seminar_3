@@ -10,7 +10,8 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Enter a five-digit number:");
+        Console.Clear();
+		Console.WriteLine("Enter a five-digit number:");
         int number = Convert.ToInt32(Console.ReadLine());
 
         if (number >= 10000 && number <= 99999)
