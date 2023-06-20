@@ -12,14 +12,14 @@ class Program
     {
         Console.Clear();
 		Console.WriteLine("введите поочередно координаты (x, y, z) точки A: ");
-        double ax = double.Parse(Console.ReadLine());
-        double ay = double.Parse(Console.ReadLine());
-        double az = double.Parse(Console.ReadLine());
+        int ax = int.Parse(Console.ReadLine()!);
+        int ay = int.Parse(Console.ReadLine()!);
+        int az = int.Parse(Console.ReadLine()!);
 
         Console.WriteLine("введите поочередно координаты (x, y, z) точки B: ");
-        double bx = double.Parse(Console.ReadLine());
-        double by = double.Parse(Console.ReadLine());
-        double bz = double.Parse(Console.ReadLine());
+        int bx = int.Parse(Console.ReadLine()!);
+        int by = int.Parse(Console.ReadLine()!);
+        int bz = int.Parse(Console.ReadLine()!);
 
         double distance = Math.Sqrt(Math.Pow(bx - ax, 2) + Math.Pow(by - ay, 2) + Math.Pow(bz - az, 2));
 
